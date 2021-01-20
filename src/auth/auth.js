@@ -1,6 +1,7 @@
 import { User } from "./userData";
 
 export const signIn = (userName, password) => {
+  console.log(User);
   let user = User.find((u) => userName === u.name);
   if (user) {
     if (user.password === password) {

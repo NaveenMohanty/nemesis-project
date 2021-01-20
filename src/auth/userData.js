@@ -31,3 +31,5 @@ export const User = [
     role: 1,
   },
 ];
+
+// JSON.parse(process.env.REACT_APP_USER);

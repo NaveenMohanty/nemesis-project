@@ -26,47 +26,39 @@ const Base = ({ userName = "Sign In to Continue!", classname, children }) => {
         <div className="social-wrapper">
           <ul>
             <li>
-              <Link>
+              <a
+                style={{ display: "table-cell" }}
+                target="_blank"
+                href="https://www.linkedin.com/in/naveen-mohanty/"
+              >
                 <img
-                  src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png"
-                  alt="Twitter Logo"
-                  className="twitter-icon"
-                />
-              </Link>
-            </li>
-            <li>
-              <Link>
-                <img
-                  src="https://www.mchenryvillage.com/images/instagram-icon.png"
-                  alt="Instagram Logo"
-                  className="instagram-icon"
-                />
-              </Link>
-            </li>
-
-            <li>
-              <Link>
-                <img
-                  src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico"
-                  alt="Facebook Logo"
+                  src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/96/Github-icon.png"
+                  alt="GitHub Logo"
                   className="facebook-icon"
                 />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link>
+              <a
+                style={{ display: "table-cell" }}
+                target="_blank"
+                href="https://www.linkedin.com/in/naveen-mohanty/"
+              >
                 <img
-                  src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png"
-                  alt="Googleplus Logo"
+                  src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/96/Linkedin-icon.png"
+                  alt="LinkedIn Logo"
                   className="googleplus-icon"
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
 
         <nav className="footer-nav" role="navigation">
-          <p>Copyright &copy; 2013 All rights reserved.</p>
+          <p>
+            Click on the Above GiHub icon to go to This Project GitHub Repo or
+            LinkedIn Icon to visit My LinkedIn profile.
+          </p>
         </nav>
       </footer>
     </div>

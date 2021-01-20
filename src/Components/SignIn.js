@@ -83,8 +83,8 @@ const Signin = () => {
           </button>
         </form>
         <p>
-          {user} {password} {error ? "true" : "false"}{" "}
-          {JSON.stringify(isAuthenticated())}
+          {/* {user} {password} {error ? "true" : "false"}{" "} */}
+          {/* {JSON.stringify(isAuthenticated())} */}
         </p>
       </div>
       {onRedirect()}

@@ -29,7 +29,7 @@ const Base = ({ userName = "Sign In to Continue!", classname, children }) => {
               <a
                 style={{ display: "table-cell" }}
                 target="_blank"
-                href="https://www.linkedin.com/in/naveen-mohanty/"
+                href="https://github.com/NaveenMohanty/nemesis-project"
               >
                 <img
                   src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/96/Github-icon.png"
